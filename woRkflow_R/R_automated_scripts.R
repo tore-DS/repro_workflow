@@ -24,7 +24,7 @@ scripts <- c(
   "20_merging",
   "30_descriptives",
   "40_analysis",
-  "50_visualization",
+  "50_visualization"
 )
 for (s in scripts) {
   f <- file.path("code", paste0(s, ".R"))
